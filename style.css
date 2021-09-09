@@ -1,6 +1,6 @@
 iframe {
     width: 95vw;
-    height: 88vh;
+    height: 85vh;
     margin: auto;
     margin-top: 1vh;
     display: block;
@@ -8,14 +8,14 @@ iframe {
   .navbar{
     background-color: #5b6467;
     background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
-    padding:30px;
+    padding:20px;
     align-items: center;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
   }
   .navbar-brand{
-      margin-left: 25%;
+      margin-left: 23%;
       font-size: 30px !important;
       
   }
