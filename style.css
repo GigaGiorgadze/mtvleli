@@ -1,0 +1,52 @@
+iframe {
+    width: 95vw;
+    height: 88vh;
+    margin: auto;
+    margin-top: 1vh;
+    display: block;
+  }
+  .navbar{
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+    padding:30px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  .navbar-brand{
+      margin-left: 25%;
+      font-size: 30px !important;
+      
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  .navbar-nav{
+  }
+  body{
+   background-image: url('circle-scatter-haikei.svg');
+   background-size: cover;
+  }
+  .mobileBrand{
+      display: none;
+  }
+  @media screen and (max-width:700px) {
+      .navbar-nav{
+          margin: 0%;
+      }
+      .navbar-brand{
+        margin-left: 0;
+        font-size: 30px !important;
+        
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .mobileBrand{
+        display: block;
+    }
+    .info{
+        font-size: 15px;
+    }
+  }
